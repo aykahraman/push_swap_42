@@ -119,8 +119,6 @@ AI was especially helpful for:
 - **Algorithm Explanation:** Summarizing the selection, chunk, and LIS + cost strategies clearly.
 - **Consistency Check:** Keeping the README aligned with the current implementation.
 
-> **Note:** This file was rewritten while preserving the structure of the reference README; the algorithm explanations were adapted to match this project's actual implementation.
-
 ---
 
 ## Group Contributions
