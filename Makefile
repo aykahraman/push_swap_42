@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+         #
+#    By: bakumcu <bakumcu@student.42istanbul.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/09 10:00:00 by ahmet             #+#    #+#              #
-#    Updated: 2026/05/14 00:53:03 by akahrama         ###   ########.fr        #
+#    Updated: 2026/05/17 16:23:19 by bakumcu          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
