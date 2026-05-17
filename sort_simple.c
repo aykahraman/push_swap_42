@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_simple.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: bakumcu <bakumcu@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/13 19:33:45 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 00:49:24 by akahrama         ###   ########.fr       */
+/*   Created: 2026/05/17 16:45:14 by bakumcu           #+#    #+#             */
+/*   Updated: 2026/05/17 16:46:27 by bakumcu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
