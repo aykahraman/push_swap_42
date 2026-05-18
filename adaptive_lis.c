@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   adaptive_lis.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: bakumcu <bakumcu@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:32:40 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 23:55:56 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/18 12:19:45 by bakumcu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ static int	binary_search(int *tails, int tails_len, int value)
 	return (left);
 }
 
-static int	compute_lis_len(int *indices, int size, int *parent, int *tail_indices)
+static int	comp_lis_len(int *indices, int size, int *parent, int *tail_indices)
 {
 	int	*tails;
 	int	tails_len;
@@ -114,7 +114,7 @@ int	*compute_lis(t_context *ctx, int *lis_len)
 	index = -1;
 	while (++index < ctx->size_a)
 		work_buffer[index] = -1;
-	*lis_len = compute_lis_len(indices, ctx->size_a,
+	*lis_len = comp_lis_len(indices, ctx->size_a,
 			work_buffer, work_buffer + ctx->size_a);
 	if (*lis_len > 0)
 		build_keep(work_buffer, work_buffer + ctx->size_a, *lis_len, keep);

@@ -92,9 +92,9 @@ At startup, the program calculates a **Disorder Metric** for the input. This met
 
 | Disorder Value | Selected Algorithm |
 |--------------------|-------------------|
-| `< 100` | Simple strategy |
-| `100 <= value < 300` | Medium chunk strategy |
-| `>= 300` | Complex LIS + cost strategy |
+| `< 200` | Simple strategy |
+| `200 <= value < 500` | Medium chunk strategy |
+| `>= 500` | Complex LIS + cost strategy |
 
 This value is stored on a 1000-point scale inside the code. For example, `300` represents roughly `30%` disorder.
 
@@ -125,4 +125,5 @@ AI was especially helpful for:
 
 | Member | Contributions |
 |-----|----------|
-| **akahrama** | Parsing, input validation, stack operations, indexing, benchmark mode, simple/medium/complex/adaptive sorting strategies, and memory management |
+| **akahrama** | Parsing, input validation, stack operations, indexing, complex/adaptive sorting strategies, and memory management |
+| **bakumcu** | Benchmark mode, simple/medium sorting strategies, two/three/five sorting algorithms
