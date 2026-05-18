@@ -15,6 +15,8 @@
 static int	read_number(const char **p, long *num)
 {
 	int	sign;
+	int	digit;
+	long	limit;
 
 	sign = 1;
 	*num = 0;
@@ -26,9 +28,16 @@ static int	read_number(const char **p, long *num)
 	}
 	if (**p < '0' || **p > '9')
 		return (0);
+	if (sign == 1)
+		limit = INT_MAX;
+	else
+		limit = -(long)INT_MIN;
 	while (**p >= '0' && **p <= '9')
 	{
-		*num = *num * 10 + (**p - '0');
+		digit = **p - '0';
+		if (*num > (limit - digit) / 10)
+			return (0);
+		*num = *num * 10 + digit;
 		(*p)++;
 	}
 	if (**p && **p != ' ' && **p != '\t')

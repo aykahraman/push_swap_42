@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: bakumcu <bakumcu@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:32:31 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/15 20:01:06 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/18 14:03:58 by bakumcu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,18 +75,18 @@ static void	dispatch(t_context *ctx)
 		ctx->strategy = STRAT_COMPLEX;
 	if (ctx->total <= 1 || is_sorted(ctx->stack_a))
 		return ;
-	if (ctx->total == 2)
-		sort_two(ctx);
-	else if (ctx->total == 3)
-		sort_three(ctx);
-	else if (ctx->total <= 5)
-		sort_five(ctx);
-	else if (ctx->flags & FLAG_SIMPLE)
+	if (ctx->flags & FLAG_SIMPLE)
 		sort_simple(ctx);
 	else if (ctx->flags & FLAG_MEDIUM)
 		sort_medium(ctx);
 	else if (ctx->flags & FLAG_COMPLEX)
 		sort_complex(ctx);
+	else if (ctx->total == 2)
+		sort_two(ctx);
+	else if (ctx->total == 3)
+		sort_three(ctx);
+	else if (ctx->total <= 5)
+		sort_five(ctx);
 	else
 		sort_adaptive(ctx);
 }

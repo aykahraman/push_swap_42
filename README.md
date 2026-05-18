@@ -78,7 +78,7 @@ This method is simple and effective for small or nearly sorted inputs. However, 
 
 After all elements are moved to `stack_b`, the maximum indexed element is repeatedly brought to the top using the shortest rotation path and pushed back to `stack_a` with `pa`. Since the elements are restored from larger to smaller, `stack_a` ends up sorted in ascending order.
 
-### 3. Complex Algorithm: LIS + Cost-Based Insertion — O(n log n) LIS, O(n²) placement
+### 3. Complex Algorithm: LIS + Cost-Based Insertion — O(n log n) LIS
 
 **Strategy:** The program first finds the Longest Increasing Subsequence (LIS) already present in `stack_a`. These elements are kept in `stack_a`, while every non-LIS element is pushed to `stack_b`.
 
