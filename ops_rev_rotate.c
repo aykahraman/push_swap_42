@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ops_rev_rotate.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: akahrama <akahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:33:15 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 00:52:53 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/19 16:52:22 by akahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

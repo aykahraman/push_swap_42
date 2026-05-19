@@ -1,5 +1,3 @@
-# Push_swap
-
 *This project was developed as part of the 42 curriculum by **akahrama** and **bakumcu**.*
 
 ---

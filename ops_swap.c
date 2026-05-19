@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ops_swap.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bakumcu <bakumcu@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: akahrama <akahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:33:21 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/18 14:19:49 by bakumcu          ###   ########.fr       */
+/*   Updated: 2026/05/19 16:52:30 by akahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

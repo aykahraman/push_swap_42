@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_complex.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: akahrama <akahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:33:39 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 00:49:34 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/19 16:53:01 by akahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

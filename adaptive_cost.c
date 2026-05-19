@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   adaptive_cost.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: akahrama <akahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:32:35 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 23:55:56 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/19 16:51:31 by akahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   adaptive_exec.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akahrama <akahrama@student.42.com.tr>      +#+  +:+       +#+        */
+/*   By: akahrama <akahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/13 19:32:38 by akahrama          #+#    #+#             */
-/*   Updated: 2026/05/14 00:53:54 by akahrama         ###   ########.fr       */
+/*   Updated: 2026/05/19 16:51:37 by akahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
